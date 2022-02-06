@@ -24,19 +24,18 @@
 
 ## CREATE
 
-- POST
+- ```POST```
 
 ## READ
 
-- GET
+- ```GET```
 
 ## UPDATE
 
-- PUT
-- PATCH
-
+- ```PUT```
+- ```PATCH```
 ## DELETE
 
-- DELETE
+- ```DELETE```
 
 ![]('./images/crud.PNG')
