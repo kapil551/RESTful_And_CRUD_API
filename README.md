@@ -10,7 +10,7 @@
 
 - A ```RESTful API``` is an architectural style for am application program interface(API) that uses ```HTTP requests``` to access and use data.```REST``` is not a programming language.
 
-![]("./images/rest-api.PNG")
+![](./images/rest-api.PNG)
 
 ## CRUD
 
