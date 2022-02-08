@@ -1,7 +1,14 @@
 const express = require("express");
+const dotenv = require("dotenv");
+
 const app = express();
 
 app.use(express.json());
+dotenv.config();
+
+// connect database
+const connectDB = require("./database/dbConnect");
+connectDB();
 
 // router
 const studentRouter = require("./routers/studentRoute");
