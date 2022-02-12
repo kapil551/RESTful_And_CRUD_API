@@ -3,6 +3,9 @@ const dotenv = require("dotenv");
 
 const app = express();
 
+
+// express.json() is method inbuilt in express to recognize the incoming request object as a JSON Object.
+// This method is called as a middleware in our application using the code : app.use(expresss.json());
 app.use(express.json());
 dotenv.config();
 
